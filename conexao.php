@@ -2,7 +2,7 @@
 	$username = "ana";
 	$password = "root";
 	$database = "pweb2";
-	$server = "localhost"; //e.g., IP de um servidor externo
+	$server = "localhost";
 	
 	$conexao = new mysqli($server, $username, $password, $database);
 	
@@ -11,4 +11,3 @@
 	} else {
 		echo "Conexão realizada.";
 	}
-?>
