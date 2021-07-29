@@ -1,7 +1,7 @@
 <?php
 
 $dsn  = 'mysql:host=localhost;dbname=pweb4';
-$user = 'ana';
+$user = 'root';
 $pass = '';
 
 $pdo = new PDO ($dsn, $user, $pass);
