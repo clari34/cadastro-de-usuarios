@@ -1,6 +1,6 @@
 <?php
 $dsn = 'mysql:host=127.0.0.1;dbname=pweb4';
-$user = 'ana';
+$user = 'root';
 $pass = 'root';
 
 try {
