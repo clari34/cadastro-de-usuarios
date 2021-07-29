@@ -1,6 +1,6 @@
 <?php
 
-$dsn  = 'mysql:host=localhost;dbname=pweb3';
+$dsn  = 'mysql:host=127.0.0.1;dbname=pweb4';
 $user = 'ana';
 $pass = '';
 
