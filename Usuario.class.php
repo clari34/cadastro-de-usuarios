@@ -57,7 +57,7 @@ class Usuario{
 			$cst->bindParam(":email", $this->email, PDO::PARAM_STR);
 			$cst->bindParam(":senha", $this->senha, PDO::PARAM_STR);
 			if($cst->execute()){
-				return 'Certinhoo';
+				return 'Certinho';
 			}else{
 				return 'Error ao cadastrar';
 			}
@@ -66,7 +66,7 @@ class Usuario{
 		}
 	}
 	
-	public function queryUpdade($dados){
+	public function queryUpdate($dados){
 		try{
 			$this->nome_usuario = $this->objfc-> codificar($dados['nome_usuario'], 2);
 			$this->nome_completo = $this->objfc-> codificar($dados['nome_completo'], 2);
@@ -76,7 +76,7 @@ class Usuario{
 			$cst->bindParam(":nome_completo", $this->nome_completo, PDO::PARAM_STR);
 			$cst->bindParam(":email", $this->email, PDO::PARAM_STR);
 			if($cst->execute()){
-				return 'Certinhooo';
+				return 'Certinho';
 			}else{
 				return 'Error ao alterar';
 			}
@@ -91,7 +91,7 @@ class Usuario{
 			$cst = $this->con->conectar()->prepare("DELETE FROM `usuario1` WHERE `nome_usuario` = :nome_usuario;");
 			$cst->bindParam(":nome_usuario", $this->nome_usuario, PDO::PARAM_STR);
 			if($cst->execute()){
-				return 'Certinhoo';
+				return 'Certinho';
 			}else{
 				return 'Erro ao deletar';
 			}

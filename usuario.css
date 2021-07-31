@@ -1,0 +1,141 @@
+  body {
+    font-family: cambria;
+    font-size: 17pt;
+    background-color: #006494; /*cor de fundo*/
+}
+
+.container {
+	display: flex;
+	flex-flow: column nowrap; /*coloca o conteúdo em coluna (um abaixo do outro)*/
+	justify-content: center; /*alinha os itens ao centro do container (tela)*/
+	align-items: center; /*alinha os itens ao centro*/
+}
+
+header {
+	background-color: white; /*cor de fundo do cabeçalho*/
+	font-family: cambria;
+	font-size: 30pt; /*tamanho da fonte do cabeçalho*/
+	width: 100%;
+	border-radius: 4px;
+}
+
+.cabecalho a {
+    color: #006494; /*cor do título do cabeçalho (Paws & Claws)*/
+    text-decoration: none;
+    display: flex;
+}
+
+.cabecalho img { /*imagem da logo*/
+	height: 200px;
+	width: 200px;
+	margin-right: 0.6%;
+	margin-left: 5%;
+}
+
+div.redirecionar {  /*div para redirecionar as páginas html*/
+	background-color: #13293d; /*cor de fundo dessa div*/
+	border-radius: 4px;
+	outline: 1px solid white; /*borda adicional*/
+	outline-offset: 1px;/*utilizado para mover o contorno para dentro ou fora*/
+	padding: 4px;
+	display: flex;
+}
+
+.redirecionar li {
+	display: inline-block;
+}
+
+.redirecionar a {
+	font-family: cambria;
+	font-size: 17pt; /*tamanho da fonte da div de redirecionar as páginas html*/
+	color: #e8f1f2; /*cor dos nomes das páginas*/
+}
+
+.redirecionar img { /*itens de redirecionar às outras páginas html*/
+	height: 7%;
+	width: 7%
+}
+
+.conteudo { /*usei para fazer a div contéudo*/
+	color: #13293d; /*cor da fonte*/
+	background-color: white; /*cor de fundo da div conteúdo*/
+    position: relative;
+    width: 900px; 
+    padding: 60px;
+    padding-top: 20px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+	-webkit-box-shadow:35px 32px 14px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:35px 32px 14px rgba(50, 50, 50, 0.77);
+	box-shadow:35px 32px 14px rgba(50, 50, 50, 0.77);
+	opacity : 2.0;
+}
+.conteudo p{
+  margin: 0;
+  padding: 7px 0px;
+  font-weight: bold;
+}
+
+.conteudo p:hover{
+  background-color: blue;
+  color: white;
+}
+
+.panel-title h3{
+     text-shadow: 2px 2px 2px grey;
+     font-size: 25pt;
+ }
+
+label.dados {
+	display: inline-block;
+	margin-top: 2%;
+	margin-bottom: 3%;
+}
+
+input {
+	background-color: #e8f1f2;
+	border-radius: 4px;
+	width: 300px; /*Comprimento dos inputs*/
+    height: 20px;
+    font-family: cambria;
+    font-size: 15pt;
+    margin-bottom: 3%;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+textarea {
+	width: 300px;
+	font-family: cambria;
+    font-size: 15pt;
+    margin-bottom: 2%;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+.botao button {
+	font-family: cambria;
+	font-size: 15pt;
+	position: center;
+}
+
+div.cadastro {
+	font-family: cambria;
+	font-size: 13pt;
+	display: flex;
+	flex-direction: column;
+}
+
+.conteudo a {
+	text-decoration: none;
+}
+
+footer {
+	color: white;
+	font-size: 12pt;
+	text-align: center;
+	margin-bottom: 3%;
+}

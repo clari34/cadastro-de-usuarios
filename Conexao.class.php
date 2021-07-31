@@ -7,7 +7,7 @@ class Conexao{
 	private static $pdo;
 	public function __construct(){		
 		$this->servidor = "localhost";
-		$this->banco = "pweb5";
+		$this->banco = "pweb6";
 		$this->user = "root"; 
 		$this->pass = "";
 	}
