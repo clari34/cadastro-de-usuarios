@@ -1,42 +1,30 @@
   body {
     font-family: cambria;
     font-size: 17pt;
-    background-color: #006494; /*cor de fundo*/
+    background-color: #006494; 
 }
 
 .container {
 	display: flex;
-	flex-flow: column nowrap; /*coloca o conteúdo em coluna (um abaixo do outro)*/
-	justify-content: center; /*alinha os itens ao centro do container (tela)*/
-	align-items: center; /*alinha os itens ao centro*/
+	flex-flow: column nowrap; 
+	justify-content: center;
+	align-items: center; 
 }
 
 header {
-	background-color: white; /*cor de fundo do cabeçalho*/
+	background-color: white; 
 	font-family: cambria;
-	font-size: 30pt; /*tamanho da fonte do cabeçalho*/
+	font-size: 30pt; 
 	width: 100%;
 	border-radius: 4px;
 }
 
-.cabecalho a {
-    color: #006494; /*cor do título do cabeçalho (Paws & Claws)*/
-    text-decoration: none;
-    display: flex;
-}
 
-.cabecalho img { /*imagem da logo*/
-	height: 200px;
-	width: 200px;
-	margin-right: 0.6%;
-	margin-left: 5%;
-}
-
-div.redirecionar {  /*div para redirecionar as páginas html*/
-	background-color: #13293d; /*cor de fundo dessa div*/
+div.redirecionar {  
+	background-color: #13293d; 
 	border-radius: 4px;
-	outline: 1px solid white; /*borda adicional*/
-	outline-offset: 1px;/*utilizado para mover o contorno para dentro ou fora*/
+	outline: 1px solid white;
+	outline-offset: 1px;
 	padding: 4px;
 	display: flex;
 }
@@ -45,20 +33,10 @@ div.redirecionar {  /*div para redirecionar as páginas html*/
 	display: inline-block;
 }
 
-.redirecionar a {
-	font-family: cambria;
-	font-size: 17pt; /*tamanho da fonte da div de redirecionar as páginas html*/
-	color: #e8f1f2; /*cor dos nomes das páginas*/
-}
 
-.redirecionar img { /*itens de redirecionar às outras páginas html*/
-	height: 7%;
-	width: 7%
-}
-
-.conteudo { /*usei para fazer a div contéudo*/
-	color: #13293d; /*cor da fonte*/
-	background-color: white; /*cor de fundo da div conteúdo*/
+.conteudo { 
+	color: #13293d; 
+	background-color: white; 
     position: relative;
     width: 900px; 
     padding: 60px;
@@ -71,21 +49,11 @@ div.redirecionar {  /*div para redirecionar as páginas html*/
 	box-shadow:35px 32px 14px rgba(50, 50, 50, 0.77);
 	opacity : 2.0;
 }
-.conteudo p{
+.container h1{
   margin: 0;
   padding: 7px 0px;
   font-weight: bold;
 }
-
-.conteudo p:hover{
-  background-color: blue;
-  color: white;
-}
-
-.panel-title h3{
-     text-shadow: 2px 2px 2px grey;
-     font-size: 25pt;
- }
 
 label.dados {
 	display: inline-block;
@@ -96,7 +64,7 @@ label.dados {
 input {
 	background-color: #e8f1f2;
 	border-radius: 4px;
-	width: 300px; /*Comprimento dos inputs*/
+	width: 300px; 
     height: 20px;
     font-family: cambria;
     font-size: 15pt;
