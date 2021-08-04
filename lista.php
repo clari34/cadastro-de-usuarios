@@ -27,19 +27,17 @@ if(isset($_POST['btLogar'])){
 
 <body>
     <div id="lista">
-        <div class="panel panel-primary">
-            <div class="panel-heading">
                 <h3 class="panel-title">Lista</h3>
             </div>
-            <div class="panel-body">
+            <div class="body">
                 <?php foreach($objUser->querySelect() as $rst){ ?>
                 <div class="usuario">
                     <div class="nome"><?=$objFc->caracter($rst['nome'], 2)?></div>
                     <div class="editar"><a href="?acao=edit&func=<?=$objFc->codificar($rst['nome_usuario'], 1)?>"
                             title="Editar dados">
                                 alt="Editar"></a></div>
-                    <div class="excluir"><a href="?acao=delet&func=<?=$objFc->codificar($rst['nome_usuario'], 1)?>"
-                            title="Excluir esse dado">
+                    <div class="exclusão"><a href="?acao=delet&func=<?=$objFc->codificar($rst['nome_usuario'], 1)?>"
+                            title="Excluir dado">
                                 alt="Excluir"></a></div>
                 </div>
                 <?php } ?>
