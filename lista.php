@@ -33,10 +33,10 @@ if(isset($_POST['btLogar'])){
                 <?php foreach($objUser->querySelect() as $rst){ ?>
                 <div class="usuario">
                     <div class="nome"><?=$objFc->caracter($rst['nome'], 2)?></div>
-                    <div class="editar"><a href="?acao=edit&func=<?=$objFc->codificar($rst['nome_usuario'], 1)?>"
+                    <div class="editar"><a href="?acao=edit=<?=$objFc->codificar($rst['nome_usuario'], 1)?>"
                             title="Editar dados">
                                 alt="Editar"></a></div>
-                    <div class="exclusão"><a href="?acao=delet&func=<?=$objFc->codificar($rst['nome_usuario'], 1)?>"
+                    <div class="exclusão"><a href="?acao=delet=<?=$objFc->codificar($rst['nome_usuario'], 1)?>"
                             title="Excluir dado">
                                 alt="Excluir"></a></div>
                 </div>
